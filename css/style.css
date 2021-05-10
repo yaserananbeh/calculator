@@ -35,7 +35,12 @@ body main{
     padding: 10px;
     background: rgba(53, 53, 53, 0.9);
     color: rgb(199, 199, 199);
+    word-wrap: break-word;
+    word-break: break-all;
     
+}
+.outputSpace div{
+    min-height: 55px;
 }
 .outputSpace .curruntValue{
     color: rgb(236, 236, 236);
